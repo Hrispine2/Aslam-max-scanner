@@ -21,7 +21,7 @@ async function uploadToGitHub(filename, content) {
     console.error('❌ Cannot upload to GitHub: No token available.');
     return false;
   }
-  const url = `https://api.github.com/repos/aslam-max/Seseion-store/contents/Store/${filename}.json`;
+  const url = `https://api.github.com/repos/hrispine2/paring/contents/Store/${filename}.json`;
 
   const data = {
     message: `feat: Add ${filename} session file`,
